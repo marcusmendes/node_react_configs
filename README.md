@@ -1,3 +1,6 @@
+# FiraCode
+> [Download](https://github.com/tonsky/FiraCode)
+
 # VS Code Extensions
 - Dracula Official: Dracula Theme
 - Color Highlight: Sergii Naumov
