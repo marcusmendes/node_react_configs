@@ -15,51 +15,57 @@
 # VS Code Settings
 ```
 {
-  "workbench.colorTheme": "Dracula",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 16,
-  "editor.lineHeight": 24,
-  "workbench.iconTheme": "vscode-icons",
-  "editor.formatOnSave": false,
-  "editor.rulers": [
-    80,
-    120
-  ],
-  "editor.tabSize": 2,
-  "editor.renderLineHighlight": "gutter",
-  "terminal.integrated.fontSize": 14,
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "breadcrumbs.enabled": true,
-  "editor.parameterHints.enabled": false,
-
-  //eslint
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    {
-      "language": "javascript",
-      "autoFix": true
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.lineHeight": 24,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.formatOnSave": false,
+    "[typescript]": {
+      "editor.formatOnSave": false
     },
-    {
-      "language": "javascriptreact",
-      "autoFix": true
+    "[typescriptreact]": {
+      "editor.formatOnSave": false
     },
-    {
-      "language": "typescript",
-      "autoFix": true
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.tabSize": 2,
+    "editor.renderLineHighlight": "gutter",
+    "terminal.integrated.fontSize": 14,
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
     },
-    {
-      "language": "typescriptreact",
-      "autoFix": true
-    }
-  ]
-}
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+  
+    //eslint
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      {
+        "language": "javascript",
+        "autoFix": true
+      },
+      {
+        "language": "javascriptreact",
+        "autoFix": true
+      },
+      {
+        "language": "typescript",
+        "autoFix": true
+      },
+      {
+        "language": "typescriptreact",
+        "autoFix": true
+      }
+    ]
+  }
 ```
 ### .editorconfig
 ```
